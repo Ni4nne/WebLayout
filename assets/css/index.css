@@ -1,8 +1,12 @@
+
+
+/* HEADER CUSTOM FONT */
 @font-face {
     font-family: 'dream-avenue';
     src: url(/assets/fonts/Dream-Avenue.ttf);
 }
 
+/* BODY CUSTOM FONT */
 @font-face {
     font-family: 'circularSpotifyLight';
     src: url(/assets/fonts/CircularSpotifyLight.ttf);
