@@ -11,12 +11,16 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
     background: #f5f4f2;
     font-family: 'circularSpotifyLight';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 body p{
     text-align: justify;
 }
@@ -131,7 +135,7 @@ body p{
 }
 
 #sidebar {
-    width: 25%;
+    width: 28%;
     float: left;
 }
 
