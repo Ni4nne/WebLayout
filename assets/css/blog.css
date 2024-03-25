@@ -1,73 +1,40 @@
-body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: #f5f4f2;
-    font-family: 'circularSpotifyLight';
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+@import url('styles.css');
 
-#header {
-    height: 162px;
+#slider {
     width: 100%;
-    background: #d9cdbd;
-}
-
-.center {
-    width: 75%;
-    margin: 0 auto;
-}
-
-#logo {
-    width: 30%;
-    float: left;
-}
-
-#logo img {
-    display: block;
-    float: left;
-    height: 154px;
-    margin-top: 6px;
-    margin-right: -10px;
-}
-
-#menu {
-    width: 70%;
-    float: right;
-    font-size: 30px;
-}
-
-#menu ul {
-    line-height: 60px;
-    width: 60%;
-    float: right;
-}
-
-#menu ul li {
-    display: inline-block;
-    list-style: none;
-    font-weight: bolder;
-    height: 40px;
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
-#menu a {
-    font-family: 'dream-avenue';
-    text-decoration: none;
+    height: 350px;
+    line-height: 340px;
     color: #62676b;
-    transition: 300ms all;
+    text-align: center;
+
+    /*  CSS BACKGROUND GRADIENT */
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 254, 254, 1) 1%, rgba(249, 248, 246, 1) 13%, rgba(207, 201, 181, 1) 52%, rgba(208, 203, 185, 1) 76%, rgba(227, 224, 212, 1) 88%, rgba(249, 248, 246, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(1%, rgba(255, 254, 254, 1)), color-stop(13%, rgba(249, 248, 246, 1)), color-stop(52%, rgba(207, 201, 181, 1)), color-stop(76%, rgba(208, 203, 185, 1)), color-stop(88%, rgba(227, 224, 212, 1)), color-stop(100%, rgba(249, 248, 246, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 254, 254, 1) 1%, rgba(249, 248, 246, 1) 13%, rgba(207, 201, 181, 1) 52%, rgba(208, 203, 185, 1) 76%, rgba(227, 224, 212, 1) 88%, rgba(249, 248, 246, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 254, 254, 1) 1%, rgba(249, 248, 246, 1) 13%, rgba(207, 201, 181, 1) 52%, rgba(208, 203, 185, 1) 76%, rgba(227, 224, 212, 1) 88%, rgba(249, 248, 246, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(255, 255, 255, 1) 0%, rgba(255, 254, 254, 1) 1%, rgba(249, 248, 246, 1) 13%, rgba(207, 201, 181, 1) 52%, rgba(208, 203, 185, 1) 76%, rgba(227, 224, 212, 1) 88%, rgba(249, 248, 246, 1) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(255, 254, 254, 1) 1%, rgba(249, 248, 246, 1) 13%, rgba(207, 201, 181, 1) 52%, rgba(208, 203, 185, 1) 76%, rgba(227, 224, 212, 1) 88%, rgba(249, 248, 246, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f8f6', GradientType=1);
 }
 
-#menu a:hover {
-    text-decoration: underline;
+#slider.slider-big h1 {
+    font-size: 40px;
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 5px;
 }
 
-.clearfix {
-    clear: both;
-    float: none;
+#slider.slider-small {
+    height: 150px;
+    line-height: 140px;
+}
+
+#slider.slider-small h1 {
+    font-size:35px;
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top: 5px;
 }
 
 #content {
@@ -76,6 +43,11 @@ body {
     float: left;
     min-height: 450px;
     margin-right: 20px;
+}
+
+#content h1 {
+    color: #62676b;
+    font-size:34px;
 }
 
 #sidebar {
@@ -206,7 +178,7 @@ form {
     height: 70px;
     line-height: 70px;
     color: white;
-    margin-top: auto; /* Establece el pie de página al final del contenedor flexible */
+    margin-top: auto; 
 }
 
 footer p {

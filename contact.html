@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title> Web Layout with Javascript </title>
-
-    <!-- STYLESHEET-->
-    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
-
+   
     <!-- FONT AWESOME-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
 </head>
 
 <body>
@@ -48,28 +48,26 @@
 
     <div class="center">
         <section id="content">
+            <h1> We welcome your comments and suggestions! </h1>
 
-            <!-- CONTACT FORM -->
+            <form class="mid-form">
 
-            <h1 class="formheader"> We welcome your comments and suggestions!</h1>
-
-            <form>
                 <div class="form-group">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" name="name" placeholder="Your name here..." />
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name">
                 </div>
 
                 <div class="form-group">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" name="name" placeholder="Your email here..." />
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email">
                 </div>
 
                 <div class="form-group">
-                    <label for="comment" class="form-label">Comment</label>
-                    <textarea name="comment" placeholder="Write here..." > </textarea>
+                    <label for="textarea">Comments</label>
+                    <textarea class="form-control" id="textarea" rows="3"> </textarea>
                 </div>
 
-                <input type="submit" value="Send" class="btn-submit"/>
+                <input type="submit" value="Send" class="btn-submit" />
             </form>
 
         </section>
