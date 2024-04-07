@@ -1,0 +1,24 @@
+@import url('generalStyles.css');
+@import url('navbar.css');
+@import url('sidebar.css');
+@import url('footer.css');
+
+.container {
+    margin: 20px auto;  
+}
+
+#content {
+    width: 100%;
+    float: left;
+    min-height: 100px;
+    margin-right: 20px;
+}
+
+#content h1 {
+    color: #62676b;
+    font-size:40px;
+}
+
+#content p {
+    font-size: 20px;
+}

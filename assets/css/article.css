@@ -1,0 +1,61 @@
+@import url('generalStyles.css');
+@import url('navbar.css');
+@import url('sidebar.css');
+@import url('footer.css');
+
+body p{
+    text-align: justify;
+}
+
+#content {
+    width: 70%;
+    float: left;
+    min-height: 450px;
+    margin-right: 20px;
+}
+
+.article-item{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.article-item p {
+    font-size: 20px;
+}
+
+
+.article-detail .image-wrap{
+    float: none;
+    width: 100%;
+}
+
+.article-detail .image-wrap img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.article-item .image-wrap{
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+
+.article-item h1{
+    color: #62676b;
+    text-align: center;
+    font-size:50px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.article-item .date {
+    text-align: center;
+    display: block;
+    margin-top: -40px;
+    width: 100%;
+    color: #62676b;
+}

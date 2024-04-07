@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #f5f4f2;
+    font-family: 'circularSpotifyLight';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 162px;
+    width: 100%;
+    background: #d9cdbd;
+}
+
+.center {
+    width: 75%;
+    margin: 0px auto;
+}
+
+#logo {
+    width: 30%;
+    float: left;
+}
+
+#logo img {
+    display: block;
+    float: left;
+    height: 154px;
+    margin-top: 6px;
+    margin-right: -10px;
+}
+
+#menu {
+    width: 70%;
+    float: right;
+    font-size: 30px;
+}
+
+#menu ul {
+    line-height: 60px;
+    width: 60%;
+    float: right;
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bolder;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#menu a {
+    font-family: 'dream-avenue';
+    text-decoration: none;
+    color: #62676b;
+    transition: 300ms all;
+}
+
+#menu a:hover {
+    text-decoration:underline;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
